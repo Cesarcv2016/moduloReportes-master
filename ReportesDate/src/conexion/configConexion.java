@@ -11,11 +11,11 @@ public class configConexion extends conexion{
             //Nombre del usuario
             String usuario = "root";
             //Contraseña
-            String clave = "123456";
+            String clave = "root";
             //Puerto
             String puerto = "3306";
             //Nombre de la base de datos
-            String nombreBaseDatos = "dbrestaurante";
+            String nombreBaseDatos = "flipper";
             //Driver
             String driver = "com.mysql.jdbc.Driver";
             

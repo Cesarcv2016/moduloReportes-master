@@ -79,7 +79,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void btnPdfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPdfActionPerformed
        reporte(generarFormat());
-        //System.out.println(this.generarFormat());
+      
     }//GEN-LAST:event_btnPdfActionPerformed
    public String generarFormat(){
      String fecha ="";

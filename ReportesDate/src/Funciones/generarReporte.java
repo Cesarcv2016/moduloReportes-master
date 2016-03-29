@@ -16,7 +16,7 @@ public class generarReporte {
     }
 
     public void generar(String fecha) {
-        InputStream fileName = ClassLoader.getSystemResourceAsStream("docs/report1.jasper");
+        InputStream fileName = ClassLoader.getSystemResourceAsStream("docs/reportProducts.jasper");
         HashMap param = new HashMap();
         param.put("fecha", fecha);
         try {
